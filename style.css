@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2 {
+  font-family: Lato;
+}
+main {
+}
+.box1{
+  background: #FF3359;
+}
+.box2{
+  background: #02A7F9;
+}
+.box3{
+  background: #FFD400;
+}
