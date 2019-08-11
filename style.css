@@ -34,3 +34,14 @@ main {
   grid-area : box3;
   background: #FFD400;
 }
+
+.gallery {
+  display: grid;
+  /* make grid responsive */
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
+.gallery img{
+  width: 100%;
+}
